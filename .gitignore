@@ -1,0 +1,43 @@
+# Node.js dependencies and build artifacts
+/discord/node_modules/
+/discord-frontend/node_modules/
+/discord/dist/
+/discord-frontend/.next/
+/discord-frontend/out/
+
+# Logs
+/discord/logs
+/discord-frontend/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment files
+/discord/.env
+/discord/.env.*
+/discord-frontend/.env
+/discord-frontend/.env.*
+
+# Misc
+/discord-frontend/.vercel/
+/discord-frontend/.turbo/
+/discord-frontend/.next/cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Optional: coverage and test output
+/discord/coverage/
+/discord-frontend/coverage/
+/discord/jest-test-results.json
+/discord-frontend/jest-test-results.json
+
